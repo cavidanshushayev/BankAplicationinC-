@@ -1,4 +1,6 @@
-﻿namespace BankApp
+﻿using System.ComponentModel.Design;
+
+namespace BankApp
 {
     internal class Program
     {
@@ -36,10 +38,15 @@
                 {
                     case 1:
                         Console.WriteLine("ne qeder kredit goturmek isteyirsiniz?");
-                         mebleg = Convert.ToInt32(Console.ReadLine());
+                        mebleg = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine("nece ayliq kredit goturmek isteyirsiniz?");
                         ay = Convert.ToInt32(Console.ReadLine());
-                        odenilecek_mebleg = mebleg +(mebleg * 12/100);
+                        if (ay <= 12) { 
+                        odenilecek_mebleg = mebleg + (mebleg * 12 / 100); }
+                        else
+                        {
+                            odenilecek_mebleg = mebleg + (mebleg * 18 / 100);
+                        }
                         Console.WriteLine("odenlicek mebleg=" + odenilecek_mebleg);
                         ayliq_odenis = odenilecek_mebleg / ay;
                         Console.WriteLine("ayliq odenish=" + ayliq_odenis);
