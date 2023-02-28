@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ClassTime\\.nuget\\packages\\": {}
+    "C:\\Users\\ELHaf\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ClassTime\\Desktop\\BankAplicationinC-\\BankApp\\BankApp.csproj",
+      "projectUniqueName": "C:\\Users\\ELHaf\\Desktop\\BankAplicationinC-\\BankApp\\BankApp.csproj",
       "projectName": "BankApp",
-      "projectPath": "C:\\Users\\ClassTime\\Desktop\\BankAplicationinC-\\BankApp\\BankApp.csproj",
-      "packagesPath": "C:\\Users\\ClassTime\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ClassTime\\Desktop\\BankAplicationinC-\\BankApp\\obj\\",
+      "projectPath": "C:\\Users\\ELHaf\\Desktop\\BankAplicationinC-\\BankApp\\BankApp.csproj",
+      "packagesPath": "C:\\Users\\ELHaf\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ELHaf\\Desktop\\BankAplicationinC-\\BankApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ClassTime\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ELHaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
