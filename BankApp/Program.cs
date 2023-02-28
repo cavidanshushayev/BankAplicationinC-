@@ -24,9 +24,9 @@ namespace BankApp
             }else
             {
                 Console.WriteLine("xosh geldiniz zehmet olmasa etmek istediyiniz emeliyyati secin:");
-            
-               
-                
+
+
+                breakpoint3:
                 int mebleg=0;
                 int ay=0;
                 int ayliq_odenis=0;
@@ -59,7 +59,7 @@ namespace BankApp
                         }else if(emeli == 2)
                         {
                             Console.WriteLine("teesuf ki kredit gotrulmedi" );
-                            goto breakpoint2;
+                            goto breakpoint3;
                         }else
                         {
                             Console.WriteLine("teesuf ki bele emeliyyat movcud deyil");
